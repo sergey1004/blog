@@ -1,0 +1,172 @@
+body {
+  background: url(coffee-apple.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 25px;
+  width: 500px;
+}
+
+.progress-js {
+  animation: loadjs 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 18px;
+  width: 0;
+}
+
+.progress-backend {
+  animation: loadback 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 18px;
+  width: 0;
+}
+
+@keyframes loadjs {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+@keyframes loadback {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+.progress-cms {
+  animation: loadback 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 18px;
+  width: 0;
+}
+
+@keyframes loadcms {
+  0% { width: 0; }
+  100% { width: 88%; }
+}
+
+.progress-style {
+  animation: loadstyle 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 18px;
+  width: 0;
+}
+
+@keyframes loadstyle {
+  0% { width: 0; }
+  100% { width: 95%; }
+}
+
+.progress-db {
+  animation: loaddb 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 18px;
+  width: 0;
+}
+
+@keyframes loaddb {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+
+.progress-chat {
+  animation: loadchat 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 18px;
+  width: 0;
+}
+
+@keyframes loadchat {
+  0% { width: 0; }
+  100% { width: 95%; }
+}
+
+.progress-payment {
+  animation: loadpayment 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 18px;
+  width: 0;
+}
+
+@keyframes loadpayment {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+
+.progress-chain {
+  animation: loadchain 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 18px;
+  width: 0;
+}
+
+@keyframes loadchain {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+.w-80{
+  width:80%;
+}
+
+.skillName{
+  font-size: 20px !important;
+}
+
+.university{
+  height: 10rem;
+}
+
+.companyDesc{
+  font-size: 1rem;
+  color: rgb(224, 187, 173);
+  font-style: italic;
+}
+
+.dicoSize{
+  font-size: 1.4rem;
+}
+
+.downloadsize{
+  font-size: 1rem;
+  margin-right: 1rem,
+}
+
+.MuiPaper-root {
+  background-color: #435a54 !important;
+  color: white !important;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: rgb(255 255 255 / 80%) !important;
+}
+
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgb(64 140 136) !important;
+}
